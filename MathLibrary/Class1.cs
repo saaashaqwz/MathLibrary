@@ -61,7 +61,9 @@
         //</summary>
         public static int Factorial(int n)
         {
-            if(n == 0)
+            if (n < 0)
+                throw new ArgumentException("Факториал определен только для неотрицательных чисел", nameof(n));
+            else if(n == 0)
                 return 0;
             else
                 return n * (n - 1);
