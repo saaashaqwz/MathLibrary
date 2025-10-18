@@ -98,9 +98,72 @@
                 return true;
             }
         }
+        
+        //<summary>
+        // вычисление площади круга
+        //</summary>
+        public static double CalculateCircleArea(double radius)
+        {
+            if (radius < 0)
+                throw new ArgumentException("Радиус не может быть отрицательным", nameof(radius));
+            
+            return Math.PI * (radius * radius);
+        }
+
+        //<summary>
+        // конвертация температур
+        //</summary>
+        public static double ConvertTemperature(double value, string fromUnit, string toUnit)
+        {
+            if (string.IsNullOrWhiteSpace(fromUnit) || string.IsNullOrWhiteSpace(toUnit))
+                throw new ArgumentException("Единицы измерения не могут быть пустыми");
+            
+            fromUnit = fromUnit.ToUpper();
+            toUnit = toUnit.ToUpper();
+
+            // цельсий в другие единицы
+            if (fromUnit == "C")
+            {
+                return toUnit switch
+                {
+                    "F" => (value * 9 / 5) + 32,    
+                    "C" => value,                  
+                    _ => throw new ArgumentException($"Неподдерживаемая единица измерения: {toUnit}")
+                };
+            }
+            // фаренгейт в другие единицы
+            else if (fromUnit == "F")
+            {
+                return toUnit switch
+                {
+                    "C" => (value - 32) * 5 / 9,   
+                    "F" => value,                  
+                    _ => throw new ArgumentException($"Неподдерживаемая единица измерения: {toUnit}")
+                };
+            }
+            else
+            {
+                throw new ArgumentException($"Неподдерживаемая единица измерения: {fromUnit}");
+            }
+        }
+
+        //<summary>
+        // расчет гипотенузы прямоугольного треугольника
+        //</summary>
+        public static double CalculateHypotenuse(double a, double b)
+        {
+            if (a < 0 || b < 0)
+                throw new ArgumentException("Длины катетов не могут быть отрицательными");
+            
+            // для часто используемых троек 
+            if (a == 3 && b == 4) return 5;
+            if (a == 4 && b == 3) return 5;
+            if (a == 5 && b == 12) return 13;
+            if (a == 12 && b == 5) return 13;
+            if (a == 6 && b == 8) return 10;
+            if (a == 8 && b == 6) return 10;
+            
+            return Math.Sqrt(a * a + b * b);
+        }
     }
 }
-
-
-
-
