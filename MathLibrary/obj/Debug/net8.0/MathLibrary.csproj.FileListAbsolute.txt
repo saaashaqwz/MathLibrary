@@ -1,0 +1,11 @@
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.AssemblyInfoInputs.cache
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.AssemblyInfo.cs
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.csproj.CoreCompileInputs.cache
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.deps.json
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.dll
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/bin/Debug/net8.0/MathLibrary.pdb
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.dll
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/refint/MathLibrary.dll
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/MathLibrary.pdb
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary/obj/Debug/net8.0/ref/MathLibrary.dll
