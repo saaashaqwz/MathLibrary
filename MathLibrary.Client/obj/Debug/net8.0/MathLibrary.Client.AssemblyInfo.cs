@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathLibrary.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+531e1e0aaf0ad06b7602554c96f6ae38553acde2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada06bb1480bd84e44a2c1b9d8d3a085bd604e49")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathLibrary.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathLibrary.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

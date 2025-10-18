@@ -16,3 +16,4 @@
 /Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary.Client/obj/Debug/net8.0/MathLibrary.Client.pdb
 /Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary.Client/obj/Debug/net8.0/MathLibrary.Client.genruntimeconfig.cache
 /Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary.Client/obj/Debug/net8.0/ref/MathLibrary.Client.dll
+/Users/saaashaqwz/RiderProjects/MathLibrary/MathLibrary.Client/obj/Debug/net8.0/MathLibrary.Client.sourcelink.json
