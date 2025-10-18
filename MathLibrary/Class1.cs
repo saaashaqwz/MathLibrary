@@ -5,26 +5,17 @@
         //<summary>
         // сложение
         //</summary>
-        public static double Add(double a, double b)
-        {
-            return a + b;
-        }
-
+        public static double Add(double a, double b) =>  a + b;
+        
         //<summary>
         // вычитание
         //</summary>
-        public static double Subtract(double a, double b)
-        {
-            return a - b;
-        }
+        public static double Subtract(double a, double b) =>  a - b;
 
         //<summary>
         // умножение
         //</summary>
-        public static double Multiply(double a, double b)
-        {
-            return a * b;
-        }
+        public static double Multiply(double a, double b) =>  a * b;
 
         //<summary>
         // деление
@@ -33,8 +24,8 @@
         {
             if(b == 0)
                 throw new DivideByZeroException("На ноль делить нельзя");
-            else
-                return a / b;
+            
+            return a / b;
         }
 
         //<summary>
@@ -42,19 +33,14 @@
         //</summary>
         public static bool IsPrime(int number)
         {
-            if(number < 2)
-                return false;
-            else
-                return true;
+            if(number < 2) return false;
+            return true;
         }
 
         //<summary>
         // возведение в степень
         //</summary>
-        public static double Power(double number, double power)
-        {
-            return Math.Pow(number, power);
-        }
+        public static double Power(double number, double power) => Math.Pow(number, power);
 
         //<summary>
         // вычисление факториала
