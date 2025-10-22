@@ -126,8 +126,8 @@
             {
                 return toUnit switch
                 {
-                    "F" => (value * 9 / 5) + 32,     // Цельсий в Фаренгейт
-                    "C" => value,                    // Цельсий в Цельсий
+                    "F" => (value * 9 / 5) + 32,   
+                    "C" => value,                
                     _ => throw new ArgumentException($"Неподдерживаемая единица измерения: {toUnit}")
                 };
             }
@@ -136,8 +136,8 @@
             {
                 return toUnit switch
                 {
-                    "C" => (value - 32) * 5 / 9,     // Фаренгейт в Цельсий
-                    "F" => value,                    // Фаренгейт в Фаренгейт
+                    "C" => (value - 32) * 5 / 9,  
+                    "F" => value,                 
                     _ => throw new ArgumentException($"Неподдерживаемая единица измерения: {toUnit}")
                 };
             }
